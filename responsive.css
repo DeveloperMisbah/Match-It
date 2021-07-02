@@ -1,0 +1,25 @@
+@media (max-width:743px){
+    .inputFeild {
+        background: #ff000000;
+        width: 100%;
+    }
+    
+    input#myAns {
+        width: 95%;
+    }
+    
+    input#frndAns {
+        width: 95%;
+    }
+
+    .inputFeild {
+        width: fit-content;
+        margin: auto;
+    }
+    
+    .outputDiv {
+        width: 95%;
+        margin: auto;
+    }
+    
+}

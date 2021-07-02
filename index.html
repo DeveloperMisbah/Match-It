@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match It</title>
+
+    <!--! Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        referrerpolicy="no-referrer" />
+
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+
+</head>
+
+<body>
+
+    <div class="mainWrapper">
+        <div class="mainWrapperElement">
+
+            <div class="InputDiv">
+
+                <div class="inputFeild">
+                    <input type="text" id="myAns" placeholder="Answer 1..." />
+                    <input type="text" id="frndAns" placeholder="Answer 2..." />
+                </div>
+
+                <div class="checkingButton flex justify-center">
+                    <button id="checkButton">Match</button>
+                </div>
+
+            </div>
+
+            <div class="outputDiv">
+
+                <h1>Not Matched</h1>
+
+                <div class="outputJSBox">
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="app.js" type="application/javascript"></script>
+</body>
+
+</html>
